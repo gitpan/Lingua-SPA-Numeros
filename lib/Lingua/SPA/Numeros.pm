@@ -4,6 +4,7 @@
 #
 
 package Lingua::SPA::Numeros;
+# ABSTRACT: Number 2 word conversion in SPA.
 
 # {{{ use block
 
@@ -17,8 +18,7 @@ use Carp;
 # }}}
 # {{{ variables declarations
 
-my($ver)      = ('$Rev: 440 $' =~ m{(\d+)}xms);
-our $VERSION = $ver / 10_000;
+our $VERSION = 0.0577;
 
 
 our @EXPORT_OK = qw( $MALE $FEMALE $NEUTRAL $MALE $FEMALE $NEUTRAL);
@@ -524,7 +524,7 @@ Lingua::SPA::Numeros - Translates numbers to spanish text
 
 =head1 VERSION
 
-version 0.044
+version 0.0577
 
 =head1 SYNOPSIS
 
@@ -537,6 +537,8 @@ version 0.044
    print $obj->Ordinal(124856), "\n";
 
 =head1 DESCRIPTION
+
+Number 2 word conversion in SPA.
 
 This module supports the translation of cardinal, ordinal and, real numbers, the
 module handles integer numbers up to vigintillions (that's 1e120), since Perl
@@ -944,7 +946,7 @@ gender of the magnitude (optional defaults to $NEUTRAL):
 
 =item DESCRIPTION
 
-This function translate the natural number $n to spanish words, adding 
+This function translate the natural number $n to spanish words, adding
 gender where needed.
 
 =item RETURN VALUE

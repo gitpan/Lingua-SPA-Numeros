@@ -9,7 +9,7 @@ use ExtUtils::MakeMaker 6.30;
 
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "Translates numbers to spanish text",
+  "ABSTRACT" => "Number 2 word conversion in SPA.",
   "AUTHOR" => "Jose Rey <jrey\@cpan.org>",
   "BUILD_REQUIRES" => {
     "FindBin" => 0,
@@ -29,7 +29,7 @@ my %WriteMakefileArgs = (
     "utf8" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.044",
+  "VERSION" => "0.0577",
   "test" => {
     "TESTS" => "t/*.t"
   }
