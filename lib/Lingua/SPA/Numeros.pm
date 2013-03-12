@@ -8,7 +8,7 @@ package Lingua::SPA::Numeros;
 
 # {{{ use block
 
-use 5.006;
+use 5.10.1;
 use utf8;
 use strict;
 use warnings;
@@ -18,7 +18,7 @@ use Carp;
 # }}}
 # {{{ variables declarations
 
-our $VERSION = 0.0577;
+our $VERSION = 0.0682;
 
 
 our @EXPORT_OK = qw( $MALE $FEMALE $NEUTRAL $MALE $FEMALE $NEUTRAL);
@@ -524,7 +524,7 @@ Lingua::SPA::Numeros - Translates numbers to spanish text
 
 =head1 VERSION
 
-version 0.0577
+version 0.0682
 
 =head1 SYNOPSIS
 

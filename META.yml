@@ -17,8 +17,8 @@ name: Lingua-SPA-Numeros
 requires:
   Carp: 0
   fields: 0
-  perl: 5.006
+  perl: v5.10.1
   strict: 0
   utf8: 0
   warnings: 0
-version: 0.0577
+version: 0.0682
